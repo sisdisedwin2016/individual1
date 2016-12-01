@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title><%= asli_berkas%></title>
+	
+	<!-- Compiled and minified CSS -->
+	<link rel="stylesheet" type="text/css" href="/css/materialize.min.css">
+	<link href="/css/icon.css" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <link rel="stylesheet" type="text/css" href="/css/singles.css">
+</head>
+<body>
+
+	<div class="container">
+		<div class="section-1">
+					<div class="card">
+						<div class="card-image waves-effect waves-block waves-light">
+							<img class="activator" src="<%= 'data:' + mime + ';' + 'base64' + ', ' + isi_berkas%>">
+						</div>
+						<div class="card-content">
+							<span class="card-title activator grey-text text-darken-4"><%= asli_berkas %><i class="material-icons right">more_vert</i></span>
+							
+							 <p>Please click the picture for further info</p>
+	            		</div>
+	            		<div class="card-reveal">
+						    <span class="card-title grey-text text-darken-4">Details<i class="material-icons right">close</i></span>
+						    <ul>
+								<li><b>Lokasi Pada Server:</b> <%= lokasi_berkas%></li>
+								<li><p><b>Ukuran:</b> <%= ukuran_berkas%></p></li>
+								<li><b>Nama Asli:</b> <%= asli_berkas%></li>
+								<li><b><i>Mime Type:</i></b> <%= mime%></li>
+							</ul>
+	    				</div>
+					</div>
+		</div>
+	</div>
+
+	<!-- Compiled and minified JavaScript -->
+	<script type="text/javascript" src="/js/jquery-2.1.1.min.js"></script>
+	<script src="/js/materialize.min.js"></script>
+</body>
+</html>

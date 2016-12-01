@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Distributed eWallet | 1306409450</title>
+
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" type="text/css" href="/ewallet/css/materialize.min.css">
+    <link href="/ewallet/css/icon.css" rel="stylesheet">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="/ewallet/css/index.css">
+
+</head>
+
+<body>
+    <div class="section-1" id="section-1">
+        <div class="layer">
+            <center>
+                <p id="ewallet-title"><em>e<b>Wallet</b></em>
+                </p>
+            </center>
+            <div id="ewallet-sub">
+                <p>No More <span id="typing"></span>
+                </p>
+            </div>
+
+            <div class="row">
+                <div class="col s6 push-s3" id="quorum-container">
+                    <div class="card">
+                        <div class="card-content white-text">
+                            <span class="card-title">
+				                <ul class="tabs">
+				                  <li class="tab col s3"><a class="active">Available Branch </a></li>
+				                </ul> 
+                			</span>
+
+                			<!-- ROW -->
+                            <div class="row">
+                            	<% if(!(typeof active == 'undefined') && (active == 'tab0' ||active == 'tab1' || active == 'tab2' || active == 'tab3' || active == 'tab4')){ %>
+                            		<% if(atma==0){ %>
+                            		<div class="card-panel teal lighten-2 col s4 push-s1">
+                                        <p id="available">
+                                            atma.sisdis
+                                            <i class="material-icons right">done</i>
+                                        </p>
+
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-2 col s4 push-s1">
+                                        <p id="available">
+                                            atma.sisdis
+                                            <i class="material-icons right">clear</i>
+                                        </p>
+                                    </div>
+                                    <%}%>
+
+
+                                    <% if(aziz==0){ %>
+                            		<div class="card-panel teal lighten-2 col s4 push-s3">
+                                        <p id="available">
+                                            aziz.sisdis
+                                            <i class="material-icons right">done</i>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-2 col s4 push-s3">
+                                        <p id="available">
+                                            aziz.sisdis
+                                            <i class="material-icons right">clear</i>
+                                        </p>
+                                    </div>
+                                    <%}%>
+                                    </div>
+                  
+                  					<!-- ROW -->
+                                    <div class="row">
+                                    <% if(mardhika==0){ %>
+                            		<div class="card-panel teal lighten-2 col s4 push-s1">
+                                        <p id="available">
+                                            mardhika.sisdis
+                                            <i class="material-icons right">done</i>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-2 col col s4 push-s1">
+                                        <p id="available">
+                                            mardhika.sisdis
+                                            <i class="material-icons right">clear</i>
+                                        </p>
+                                    </div>
+                                    <%}%>
+
+                                    <% if(edwin==0){ %>
+                            		<div class="card-panel teal lighten-2 col s4 push-s3">
+                                        <p id="available">
+                                            rahman.sisdis
+                                            <i class="material-icons right">done</i>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-2 col s4 push-s3">
+                                        <p id="available">
+                                            rahman.sisdis
+                                            <i class="material-icons right">clear</i>
+                                        </p>
+                                    </div>
+                                    <%}%>
+                                    </div>
+
+                                    <!-- ROW -->
+                                    <div class="row">
+                                    <% if(saprikan==0){ %>
+                            		<div class="card-panel teal lighten-2 col s4 push-s1">
+                                        <p id="available">
+                                            saprikan.sisdis
+                                            <i class="material-icons right">done</i>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-2 col col s4 push-s1">
+                                        <p id="available">
+                                            saprikan.sisdis
+                                            <i class="material-icons right">clear</i>
+                                        </p>
+                                    </div>
+                                    <%}%>
+
+                                    <% if(izzunaqi==0){ %>
+                            		<div class="card-panel teal lighten-2 col s4 push-s3">
+                                        <p id="available">
+                                            izzunaqi.sisdis
+                                            <i class="material-icons right">done</i>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-2 col s4 push-s3">
+                                        <p id="available">
+                                            izzunaqi.sisdis
+                                            <i class="material-icons right">clear</i>
+                                        </p>
+                                    </div>
+                                    <%}%>
+                                    </div>
+
+
+                                    <!-- ROW -->
+                                    <div class="row">
+                                    <% if(prayogo==0){ %>
+                            		<div class="card-panel teal lighten-2 col s4 push-s1">
+                                        <p id="available">
+                                            prayogo.sisdis
+                                            <i class="material-icons right">done</i>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-2 col col s4 push-s1">
+                                        <p id="available">
+                                            prayogo.sisdis
+                                            <i class="material-icons right">clear</i>
+                                        </p>
+                                    </div>
+                                    <%}%>
+
+                                    <% if(hadhi==0){ %>
+                            		<div class="card-panel teal lighten-2 col s4 push-s3">
+                                        <p id="available">
+                                            hadhi.sisdis
+                                            <i class="material-icons right">done</i>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-2 col s4 push-s3">
+                                        <p id="available">
+                                            hadhi.sisdis
+                                            <i class="material-icons right">clear</i>
+                                        </p>
+                                    </div>
+                                    <%}%>
+
+                                <%}%>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="section-2" id="section-2">
+        <div class="container">
+            <div class="row">
+                <div class="col s12">
+                    <ul class="tabs" id="tabs">
+                        <% if(total >= 5){%>
+                            <li class="tab col s3"><a href="#tab1">Register</a></li>
+                        <%} else {%>
+                            <li class="tab col s3 disabled"><a href="#tab1">Register</a></li>
+                        <% } %>
+
+                        <% if(total >= 5){%>
+                            <li class="tab col s3"><a href="#tab2">Get Saldo</a></li>
+                        <%} else {%>
+                            <li class="tab col s3 disabled"><a href="#tab2">Get Saldo</a></li>
+                        <% } %>
+
+                        <% if(full){%>
+                        	<li class="tab col s3 "><a href="#tab3">Get Total Saldo</a></li>
+                        <%} else{%>
+                        	<li class="tab col s3 disabled"><a href="#tab3">Get Total Saldo</a></li>
+                        <% } %>
+                        
+                        <% if(total >= 5){%>
+                        <li class="tab col s3"><a href="#tab4">Transfer</a></li>
+                        <%} else {%>
+                        <li class="tab col s3 disabled"><a href="#tab4">Transfer</a></li>
+                        <% } %>
+                    </ul>
+                </div>
+
+                <div id="tab1" class="col s12">
+                    <div class="row">
+                        <form class="col s12" method="post" action="https://rahman.sisdis.ui.ac.id/ewallet/reg">
+                            <!-- Sambungin ke belakang -->
+                            <div class="row">
+                                <div class="input-field col s4">
+                                    <input type="text" id="nama" name="nama" class="validate" required>
+                                    <label for="nama">Nama</label>
+                                </div>
+                                <div class="input-field col s4">
+                                    <input type="text" id="NPM" name="user_id" class="validate" required="">
+                                    <label for="NPM">NPM</label>
+                                </div>
+                                <div class="input-field col s4">
+                                    <select name="ip_domisili" required>
+                                        <option value="" disabled selected>Choose your IP Domisili</option>
+                                        <option value="https://rahman.sisdis.ui.ac.id/ewallet">rahman.sisdis.ui.ac.id</option>
+                                        <option value="https://aziz.sisdis.ui.ac.id/ewallet">aziz.sisdis.ui.ac.id</option>
+                                        <option value="https://mardhika.sisdis.ui.ac.id/ewallet">mardhika.sisdis.ui.ac.id</option>
+                                        <option value="https://saprikan.sisdis.ui.ac.id/ewallet">saprikan.sisdis.ui.ac.id</option>
+                                        <option value="https://izzunaqi.sisdis.ui.ac.id/ewallet">izzunaqi.sisdis.ui.ac.id</option>
+                                        <option value="https://hadhi.sisdis.ui.ac.id/ewallet">hadhi.sisdis.ui.ac.id</option>
+                                        <option value="https://prayogo.sisdis.ui.ac.id/ewallet">prayogo.sisdis.ui.ac.id</option>
+                                        <option value="https://kurnia.sisdis.ui.ac.id/ewallet">kurnia.sisdis.ui.ac.id</option>
+                                    </select>
+                                    <label>IP Domisili</label>
+                                </div>
+                                <button class="btn waves-effect waves-light col s2 push-s5" id="registerbtn" type="submit">Register
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s6 push-s3">
+                            <%if(!(typeof error=='undefined' ) && active=='tab1' ){%>
+                                <% if(error==false){ %>
+                                    <div class="card-panel teal lighten-2 center">
+                                        <p id="result">
+                                            <%=message%>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                        <div class="card-panel red lighten-1 center">
+                                            <p id="result">
+                                                <%=message%>
+                                            </p>
+                                        </div>
+                                        <% }} %>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab2" class="col s12">
+                    <div class="row">
+                        <form class="col s12" method="post" action="https://rahman.sisdis.ui.ac.id/ewallet/gs">
+                            <!-- Sambungin ke belakang -->
+                            <div class="row">
+                                <div class="input-field col s8 push-s2">
+                                    <input type="text" id="NPM" name="user_id" class="validate" required="">
+                                    <label for="NPM">NPM</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button class="btn waves-effect waves-light col s2 push-s5" id="getsaldobtn" type="submit" name="action">Get Saldo
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s6 push-s3">
+                            <%if(!(typeof error=='undefined' ) && active=='tab2' ){%>
+                                <% if(error==false){ %>
+                                    <div class="card-panel teal lighten-2 center">
+                                        <p id="result">
+                                            <%=nilai_saldo%>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-1 center">
+                                        <p id="result">
+                                             <%=message%>
+                                        </p>
+                                    </div>
+                            <% }} %>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div id="tab3" class="col s12">
+                    <div class="row">
+                        <form class="col s12" method="post" action="https://rahman.sisdis.ui.ac.id/ewallet/gts">
+                            <!-- Sambungin ke belakang -->
+                            <div class="row">
+                                <div class="input-field col s8 push-s2">
+                                    <input type="number" id="NPM" name="user_id" class="validate" required="">
+                                    <label for="NPM">NPM</label>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <button class="btn waves-effect waves-light col s2 push-s5" id="gettotalsaldobtn" type="submit" name="action">Get Saldo
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s6 push-s3">
+                            <%if(!(typeof error=='undefined' ) && active=='tab3' ){%>
+                                <% if(error==false){ %>
+                                    <div class="card-panel teal lighten-2 center">
+                                        <p id="result">
+                                            <%=nilai_saldo%>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-1 center">
+                                        <p id="result">
+                                             <%=nilai_saldo%>
+                                        </p>
+                                    </div>
+                            <% }} %>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="tab4" class="col s12">
+                    <div class="row">
+                        <form class="col s12" method="post" action="https://rahman.sisdis.ui.ac.id/ewallet/trf">
+                            <!-- Sambungin ke belakang -->
+                            <div class="row">
+                                <div class="input-field col s4">
+                                    <input type="text" id="NPM" name="user_id" class="validate" required>
+                                    <label for="NPM">NPM</label>
+                                </div>
+                                <div class="input-field col s4">
+                                    <input type="number" id="nilai" name="nilai" class="validate" required min="1">
+                                    <label for="nilai">Nilai Transfer</label>
+                                </div>
+                                <div class="input-field col s4">
+                                    <select name="ip_tujuan">
+                                        <option value="" disabled selected>Pilih Cabang</option>
+                                        <option value="https://rahman.sisdis.ui.ac.id">rahman.sisdis.ui.ac.id</option>
+                                        <option value="https://aziz.sisdis.ui.ac.id">aziz.sisdis.ui.ac.id</option>
+                                        <option value="https://mardhika.sisdis.ui.ac.id">mardhika.sisdis.ui.ac.id</option>
+                                        <option value="https://atma.sisdis.ui.ac.id">atma.sisdis.ui.ac.id</option>
+                                        <option value="https://saprikan.sisdis.ui.ac.id/ewallet">saprikan.sisdis.ui.ac.id</option>
+                                        <option value="https://izzunaqi.sisdis.ui.ac.id/ewallet">izzunaqi.sisdis.ui.ac.id</option>
+                                        <option value="https://hadhi.sisdis.ui.ac.id/ewallet">hadhi.sisdis.ui.ac.id</option>
+                                        <option value="https://prayogo.sisdis.ui.ac.id/ewallet">prayogo.sisdis.ui.ac.id</option>
+                                        <option value="https://kurnia.sisdis.ui.ac.id/ewallet">kurnia.sisdis.ui.ac.id</option>
+                                    </select>
+                                    <label>Cabang Tujuan</label>
+                                </div>
+                                <button class="btn waves-effect waves-light col s2 push-s5" id="transferbtn" type="submit" name="action">Transfer
+                                    <i class="material-icons right">send</i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+
+                    <div class="row">
+                        <div class="col s6 push-s3">
+                            <%if(!(typeof error=='undefined' ) && active=='tab4' ){%>
+                                <% if(error==false){ %>
+                                    <div class="card-panel teal lighten-2 center">
+                                        <p id="result">
+                                            <%=message%>
+                                        </p>
+                                    </div>
+                                    <% }else{ %>
+                                    <div class="card-panel red lighten-1 center">
+                                        <p id="result">
+                                            <%=message%>
+                                        </p>
+                               		</div>
+                            <% }} %>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Compiled and minified JavaScript -->
+    <script type="text/javascript" src="/ewallet/js/jquery-2.1.1.min.js"></script>
+    <script src="/ewallet/js/typed.js"></script>
+    <script src="/ewallet/js/materialize.min.js"></script>
+
+    <script type="text/javascript">
+        $(function() {
+            $("#typing").typed({
+                strings: ["Waiting", "Cash", "Coins", "Pain"],
+                typeSpeed: 100,
+                loop: true,
+                showCursor: false,
+                backDelay: 600,
+                backSpeed: 30,
+
+            });
+        });
+
+        $(document).ready(function() {
+            $('select').material_select();
+            $('ul.tabs').tabs('select_tab', '<%=active%>');
+        });
+    </script>
+</body>
+
+</html>
